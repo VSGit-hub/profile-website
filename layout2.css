@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    height: 3000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playfair Display", sans-serif;
+}
+.nav-container {
+    position: fixed;
+    border: 2px solid black;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+}
+
+.nav-list {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-section {
+    margin-top: 60px;
+    display: flex;
+    width: 85vw;
+    height: 100vh;
+    border: 2px solid black;
+}
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+#profile-img {
+    display: flex;
+    object-fit: cover;
+    height: 280px;
+    width: 280px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.profile-name {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+#name {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+#profile-info {
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.about-section {
+    display: flex;
+    width: 85vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid black;
+}
+
+.about-me-education {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.education-college {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.educaion-coursework {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid red;
+}
+
+.education-year-result {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.experience-section {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    height: 100v;
+    align-items: flex-start;
+}
