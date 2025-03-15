@@ -1,18 +1,27 @@
+html {
+    scroll-behavior: smooth;
+    }
+
 body {
     margin: 0px;
-    height: 3000px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Playfair Display", sans-serif;
+    font-family: 'Outfit';
+    color: black;
 }
+body, .nav-container {
+    background-image: url('images/augustine-wong-li0iC0rjvvg-unsplash.jpg');
+    background-size: cover;
+}
+
 .nav-container {
     position: fixed;
-    border: 2px solid black;
-    width: 85%;
+    width: 100%;
     display: flex;
     justify-content: center;
     z-index: 100;
+    border-bottom: 2px solid black;
 }
 
 .nav-list {
@@ -23,15 +32,22 @@ body {
 }
 
 .hero-section {
-    margin-top: 60px;
     display: flex;
+    flex-direction: column;
     width: 85vw;
-    height: 100vh;
-    border: 2px solid black;
+}
+
+.profile-hero {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .profile-image {
-    display: flex;
+    padding-top: 10px;
+    padding-left:10px ;
     justify-content: center;
     align-items: center;
     margin: 5px;
@@ -50,6 +66,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 10px;
+    padding-left: 35px;
 }
 
 #name {
@@ -64,13 +81,50 @@ body {
     margin-top: 0px;
 }
 
+.section-heading {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    padding-top: 65px;
+    text-align: start;
+    width: 90%;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+
+p , li{
+    font-size: 18px;
+}
+
 .about-section {
     display: flex;
     width: 85vw;
-    height: 100vh;
     flex-direction: column;
     align-items: flex-start;
-    border: 2px solid black;
+}
+
+.section-break {
+    border: none;
+    height: 2px;
+    width: 100%; /* Ensures full width */
+    background-color: #333; /* Dark color for visibility */
+    margin: 20px 0;
+    margin-bottom: 0px;
+}
+
+.intra-section-break {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(122, 118, 118);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .about-me-education {
@@ -90,10 +144,14 @@ body {
 .educaion-coursework {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    max-width: 100%;
     justify-content: space-around;
     align-items: center;
-    border: 3px solid red;
+
+}
+
+.coursework-details {
+    padding-left: 20px;
 }
 
 .education-year-result {
@@ -111,3 +169,52 @@ body {
     height: 100v;
     align-items: flex-start;
 }
+
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+    padding: 50px 0;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact-info {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.social-links {
+    display: flex;
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin-right: 15px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+

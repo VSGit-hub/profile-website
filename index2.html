@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">">
-    <link rel="stylesheet" href="layout2.css">
-    <title>Portfolio-test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet"><link rel="stylesheet" href="layout2.css">
+    <title>Portfolio</title>
 </head>
 <body>
     <nav class="nav-container">
@@ -20,14 +19,18 @@
     </nav>
     
     <hero class="hero-section" id="hero">
-        <div class="profile-image">
-            <img src="images/profile-image.jpg" id="profile-img">
+        <div class="profile-hero">
+            <div class="profile-image">
+                <img src="images/profile-image.jpg" id="profile-img">
+            </div>
+            <div class="profile-name">
+                <p id="name">Vaibhav Datta Shinde</p>
+                <p id="profile-info">Mumbai, India</p>
+                <p id="profile-info">M.Tech in Data Science</p>
+            </div>
         </div>
-        <div class="profile-name">
-            <p id="name">Vaibhav Datta Shinde</p>
-            <p id="profile-info">Mumbai, India</p>
-            <p id="profile-info">M.Tech in Data Science</p>
-        </div>
+
+        <hr class="section-break">
     </hero>
 
     <section class="about-section" id="about">
@@ -35,67 +38,67 @@
             <h2 class="section-heading">About</h2>
             <p class="about-info">I am a data enthusiast with a strong background in mathematics, programming, and computer science. I specialize in transforming raw data into actionable insights and focus on building innovative and practical solutions. With expertise in data engineering and software development, I am passionate about creating useful products that drive real-world impact.</p>
         </div>
+        <hr class="intra-section-break">
         <div class="about-me-education">
             <h2 class="section-heading">Education</h2>
             <div class="education-college">
                 <div class="college-details">
                     <p>M.Tech in CSE (Data Science)</p>
                     <p>Sardar Vallabhbhai National Institute of Technology</p>
+                    <div class="coursework-details">
+                        <p class="section-subheading">Coursework</p>
+                        <ul>
+                            <li>Natural Language Processing</li>
+                            <li>Machine Learning</li>
+                            <li>Advance Statistical Technique</li>
+                            <li>Data Mining and Data Warehousing</li>
+                            <li>Design and Analysis of Algorithms</li>
+                            <li>High Performance Computing</li>
+                            <li>Research Methodology</li>
+                        </ul>
+                        <p><strong>Dissertation: </strong>Anomaly Detection in Smart Grid using CNN-Transformer Hybrid Model</p>
+                    </div>
+                    <div class="grad-year">
+                        <p>June 2016 - Oct 2020</p>
+                    </div>
                 </div>
                 <div class="college-details">
                     <p>B.E in Electronics and Telecommunication</p>
                     <p>Vidyalankar Institute of Technology</p>
-                </div>
-            </div>
-            <div class="educaion-coursework">
-                <div class="coursework-details">
-                    <p class="section-subheading">Coursework</p>
-                    <ul>
-                        <li>Natural Language Processing</li>
-                        <li>Machine Learning</li>
-                        <li>Advance Statistical Technique</li>
-                        <li>Data Mining and Data Warehousing</li>
-                        <li>Design and Analysis of Algorithms</li>
-                        <li>High Performance Computing</li>
-                        <li>Research Methodology</li>
-                    </ul>
-                    <p><strong>Dissertation: </strong>Anomaly Detection in Smart Grid using CNN-Transformer Hybrid Model</p>
-                </div>
-                <div class="coursework-details">
-                    <p>Coursework</p>
-                    <ul>
-                        <li>Data Structure and Algorithm</li>
-                        <li>Big Data Analytics</li>
-                        <li>Data Base Management System</li>
-                        <li>Object Oriented Programming using Java</li>
-                        <li>Applied Mathematics</li>
-                        <li>Computer Communication Networks</li>
-                        <li>Electronic Devices and Circuits</li>
-                    </ul>
-                    <p><strong>Capstone Project: </strong>Face Detection based Attendance System</p>
-                </div>
-
-            </div>
-            <div class="education-year-result">
-                <div class="grad-year">
-                    <p>June 2016 - Oct 2020</p>
-                </div>
-                <div class="grad-year">
-                    <p>June 2023 - July 2025</p>
+                    <div class="coursework-details">
+                        <p>Coursework</p>
+                        <ul>
+                            <li>Data Structure and Algorithm</li>
+                            <li>Big Data Analytics</li>
+                            <li>Data Base Management System</li>
+                            <li>Object Oriented Programming using Java</li>
+                            <li>Applied Mathematics</li>
+                            <li>Computer Communication Networks</li>
+                            <li>Electronic Devices and Circuits</li>
+                        </ul>
+                        <p><strong>Capstone Project: </strong>Face Detection based Attendance System</p>
+                    </div>
+                    <div class="grad-year">
+                        <p>June 2016 - Oct 2020</p>
+                    </div>
                 </div>
             </div>
         </div>
+        <hr class="intra-section-break">
         <div class="about-me-skills">
             <h2 class="section-heading">Skills</h2>
             <p><strong>Programming Language</strong>: Python, C++, HTML+CSS, Javascript</p>
             <p><strong>Frameworks</strong>: Sklearn, Tensorflow, Numpy, Pandas, Matplotlib, Seaborn</p>
             <p><strong>Dev Tools</strong>:Git, Github, PowerBI, Tableau</p>
         </div>
+        <hr class="section-break">
     </section>
     
 
     <section class="project-section" id="project">
+        <hr class="section-break">
     </section>
+
 
     <section class="experience-section" id="experience">
         <div class="experience-info">
@@ -111,9 +114,30 @@
                     quality.</li>
             </ul>
         </div>
+        <hr class="section-break">
     </section>
+    
     <section class="contact-section" id="contact">
-
+        <h2 class="section-heading">Contact Me</h2>
+    
+        <div class="contact-container">
+    
+            <div class="contact-info">
+                <p><strong>Email:</strong> vofficial247@gmail.com</p>
+                <p><strong>Phone:</strong> +91 910405 1553</p>
+    
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/vaibhav-shinde-685091141/" target="_blank">
+                        <img src="images/icons8-linkedin-50.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/VSGit-hub" target="_blank">
+                        <img src="images/icons8-git-50.png" alt="GitHub">
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
     </section>
+    
 </body>
 </html>
